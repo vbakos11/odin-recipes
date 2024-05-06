@@ -1,0 +1,57 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.heading{
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.heading h1{
+    color: darkred;
+}
+
+.overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.flex-text{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-text p{
+    font-size: 24px;
+    width: 400px;
+}
+
+.flex-text h5{
+    font-size: 32px;
+    width: 400px;
+    
+}
+
+.overview img.image{
+    max-height: 500px;
+    border-radius: 8px;
+}
+
+.flex-body{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+
+}
+
+.flex-body div{
+    width: 40%;
+}
